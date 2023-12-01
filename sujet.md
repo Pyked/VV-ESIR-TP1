@@ -11,3 +11,15 @@
 5.  Shortly after the appearance of WebAssembly another paper proposed a mechanized specification of the language using Isabelle. The paper can be consulted here: https://www.cl.cam.ac.uk/~caw77/papers/mechanising-and-verifying-the-webassembly-specification.pdf. This mechanized specification complements the first formalization attempt from the paper. According to the author of this second paper, what are the main advantages of the mechanized specification? Did it help improving the original formal specification of the language? What other artifacts were derived from this mechanized specification? How did the author verify the specification? Does this new specification removes the need for testing?
 
 ## Answers
+1.
+Bug: Tiktok Software Bug that reduces users followers to zero
+
+Description: The bug allow any person that had access to tiktok code and who knows how to manipulate it (such as someone on staff) to delete all followers from another user’s account without their permission or knowledge.
+
+Scope: This is a global bug
+
+Repercussions: users who had their followers reduced would not even know about it until they tried looking at their accounts later on—and even then, only if they were paying close attention enough to notice what happened with their followers' list. 
+
+Entity at Fault: Tiktok
+
+Testing Specultation: I think that verifying the access permissions needed to use the code of the application would be helpful to prevent this bug
